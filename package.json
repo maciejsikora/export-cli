@@ -12,6 +12,10 @@
   },
   "author": "Maciej Sikora <hello@maciejsikora.com>",
   "license": "ISC",
+  "repository": { 
+    "type" : "git", 
+    "url" : "https://github.com/maciejsikora/export-cli"
+  },
   "dependencies": {
     "archiver": "^2.1.0",
     "fs-extra": "^4.0.2",
