@@ -1,0 +1,38 @@
+{
+  "name": "export-cli",
+  "version": "0.0.1",
+  "description": "Pack and export all javascript projects in fast and efficient way without npm dependencies.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "standard && mocha",
+    "test-force": "mocha"
+  },
+  "bin": {
+    "export": "cli.js"
+  },
+  "author": "Maciej Sikora <hello@maciejsikora.com>",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^2.1.0",
+    "fs-extra": "^4.0.2",
+    "klaw-sync": "^3.0.0",
+    "yargs": "^9.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "rewire": "^2.5.2",
+    "standard": "^10.0.3"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "context",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "it",
+      "expect"
+    ]
+  }
+}
