@@ -54,5 +54,5 @@ npm install -g export-cli
 #### Archive all projects from ./exampleNpmProject to ./targetArchive.zip:
 `export archive exampleNpmProject targetArchive`
 
-#### Archive all projects from ./exampleNpmProject to ./exampleNpmProject.zip:
+#### Archive all projects from ./exampleNpmProject to ./exampleNpmProject-(timestamp).zip:
 `export archive exampleNpmProject`
