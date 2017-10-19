@@ -1,6 +1,6 @@
 {
   "name": "export-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Pack and export all javascript projects in fast and efficient way without npm dependencies.",
   "main": "cli.js",
   "scripts": {
